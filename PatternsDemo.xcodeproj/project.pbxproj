@@ -14,6 +14,24 @@
 		9517DFFD1FD4DE74005355DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9517DFFB1FD4DE74005355DF /* LaunchScreen.storyboard */; };
 		9517E0001FD4DE74005355DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9517DFFF1FD4DE74005355DF /* main.m */; };
 		9517E00A1FD4DE74005355DF /* PatternsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9517E0091FD4DE74005355DF /* PatternsDemoTests.m */; };
+		9517E01B1FD4E307005355DF /* EClothShoes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9517E01A1FD4E307005355DF /* EClothShoes.m */; };
+		9517E01E1FD4E318005355DF /* ELeatherShoes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9517E01D1FD4E318005355DF /* ELeatherShoes.m */; };
+		9517E0231FD4E4AE005355DF /* SimpleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9517E0221FD4E4AE005355DF /* SimpleFactory.m */; };
+		9517E0271FD4E513005355DF /* SimpleFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9517E0261FD4E513005355DF /* SimpleFactoryTests.m */; };
+		9517E0341FD4F54B005355DF /* EClothShoesFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9517E0331FD4F54B005355DF /* EClothShoesFactory.m */; };
+		9517E0371FD4F5E8005355DF /* ELeatherShoesFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9517E0361FD4F5E8005355DF /* ELeatherShoesFactory.m */; };
+		9517E0391FD4F635005355DF /* FactoryMethodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9517E0381FD4F635005355DF /* FactoryMethodTests.m */; };
+		9517E0451FD52E8F005355DF /* EClothBag.m in Sources */ = {isa = PBXBuildFile; fileRef = 9517E0441FD52E8F005355DF /* EClothBag.m */; };
+		9517E0481FD52EE4005355DF /* ELeatherBag.m in Sources */ = {isa = PBXBuildFile; fileRef = 9517E0471FD52EE4005355DF /* ELeatherBag.m */; };
+		9517E04B1FD52FC2005355DF /* EClothFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9517E04A1FD52FC2005355DF /* EClothFactory.m */; };
+		9517E04E1FD53082005355DF /* ELeatherFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9517E04D1FD53082005355DF /* ELeatherFactory.m */; };
+		9517E0521FD530F1005355DF /* AbstactFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9517E0511FD530F1005355DF /* AbstactFactoryTests.m */; };
+		9517E0561FD63362005355DF /* EHouseDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 9517E0551FD63362005355DF /* EHouseDirector.m */; };
+		9517E0591FD633E8005355DF /* EHouse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9517E0581FD633E8005355DF /* EHouse.m */; };
+		9517E05C1FD635CE005355DF /* EHouseBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9517E05B1FD635CE005355DF /* EHouseBuilder.m */; };
+		9517E05F1FD63606005355DF /* EDarkHouseBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9517E05E1FD63606005355DF /* EDarkHouseBuilder.m */; };
+		9517E0621FD63614005355DF /* ELightHouseBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9517E0611FD63614005355DF /* ELightHouseBuilder.m */; };
+		9517E0641FD69643005355DF /* BuilderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9517E0631FD69643005355DF /* BuilderTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +58,42 @@
 		9517E0051FD4DE74005355DF /* PatternsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatternsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9517E0091FD4DE74005355DF /* PatternsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PatternsDemoTests.m; sourceTree = "<group>"; };
 		9517E00B1FD4DE74005355DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9517E0191FD4E307005355DF /* EClothShoes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EClothShoes.h; sourceTree = "<group>"; };
+		9517E01A1FD4E307005355DF /* EClothShoes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EClothShoes.m; sourceTree = "<group>"; };
+		9517E01C1FD4E318005355DF /* ELeatherShoes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELeatherShoes.h; sourceTree = "<group>"; };
+		9517E01D1FD4E318005355DF /* ELeatherShoes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELeatherShoes.m; sourceTree = "<group>"; };
+		9517E0211FD4E4AE005355DF /* SimpleFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleFactory.h; sourceTree = "<group>"; };
+		9517E0221FD4E4AE005355DF /* SimpleFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleFactory.m; sourceTree = "<group>"; };
+		9517E0261FD4E513005355DF /* SimpleFactoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleFactoryTests.m; sourceTree = "<group>"; };
+		9517E0281FD4E883005355DF /* EShoes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EShoes.h; sourceTree = "<group>"; };
+		9517E02F1FD4F49E005355DF /* EShoesFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EShoesFactory.h; sourceTree = "<group>"; };
+		9517E0321FD4F54B005355DF /* EClothShoesFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EClothShoesFactory.h; sourceTree = "<group>"; };
+		9517E0331FD4F54B005355DF /* EClothShoesFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EClothShoesFactory.m; sourceTree = "<group>"; };
+		9517E0351FD4F5E8005355DF /* ELeatherShoesFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELeatherShoesFactory.h; sourceTree = "<group>"; };
+		9517E0361FD4F5E8005355DF /* ELeatherShoesFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELeatherShoesFactory.m; sourceTree = "<group>"; };
+		9517E0381FD4F635005355DF /* FactoryMethodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryMethodTests.m; sourceTree = "<group>"; };
+		9517E03D1FD52D9F005355DF /* AbstractFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
+		9517E0401FD52DD3005355DF /* EBag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EBag.h; sourceTree = "<group>"; };
+		9517E0431FD52E8F005355DF /* EClothBag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EClothBag.h; sourceTree = "<group>"; };
+		9517E0441FD52E8F005355DF /* EClothBag.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EClothBag.m; sourceTree = "<group>"; };
+		9517E0461FD52EE4005355DF /* ELeatherBag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELeatherBag.h; sourceTree = "<group>"; };
+		9517E0471FD52EE4005355DF /* ELeatherBag.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELeatherBag.m; sourceTree = "<group>"; };
+		9517E0491FD52FC2005355DF /* EClothFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EClothFactory.h; sourceTree = "<group>"; };
+		9517E04A1FD52FC2005355DF /* EClothFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EClothFactory.m; sourceTree = "<group>"; };
+		9517E04C1FD53082005355DF /* ELeatherFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELeatherFactory.h; sourceTree = "<group>"; };
+		9517E04D1FD53082005355DF /* ELeatherFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELeatherFactory.m; sourceTree = "<group>"; };
+		9517E0511FD530F1005355DF /* AbstactFactoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstactFactoryTests.m; sourceTree = "<group>"; };
+		9517E0541FD63362005355DF /* EHouseDirector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EHouseDirector.h; sourceTree = "<group>"; };
+		9517E0551FD63362005355DF /* EHouseDirector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EHouseDirector.m; sourceTree = "<group>"; };
+		9517E0571FD633E8005355DF /* EHouse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EHouse.h; sourceTree = "<group>"; };
+		9517E0581FD633E8005355DF /* EHouse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EHouse.m; sourceTree = "<group>"; };
+		9517E05A1FD635CE005355DF /* EHouseBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EHouseBuilder.h; sourceTree = "<group>"; };
+		9517E05B1FD635CE005355DF /* EHouseBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EHouseBuilder.m; sourceTree = "<group>"; };
+		9517E05D1FD63606005355DF /* EDarkHouseBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDarkHouseBuilder.h; sourceTree = "<group>"; };
+		9517E05E1FD63606005355DF /* EDarkHouseBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDarkHouseBuilder.m; sourceTree = "<group>"; };
+		9517E0601FD63614005355DF /* ELightHouseBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELightHouseBuilder.h; sourceTree = "<group>"; };
+		9517E0611FD63614005355DF /* ELightHouseBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELightHouseBuilder.m; sourceTree = "<group>"; };
+		9517E0631FD69643005355DF /* BuilderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuilderTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +135,7 @@
 		9517DFEF1FD4DE73005355DF /* PatternsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9517E01F1FD4E3AC005355DF /* CreateType */,
 				9517DFF01FD4DE73005355DF /* AppDelegate.h */,
 				9517DFF11FD4DE73005355DF /* AppDelegate.m */,
 				9517DFF31FD4DE73005355DF /* ViewController.h */,
@@ -97,10 +152,101 @@
 		9517E0081FD4DE74005355DF /* PatternsDemoTests */ = {
 			isa = PBXGroup;
 			children = (
+				9517E0241FD4E4EE005355DF /* CreateType */,
 				9517E0091FD4DE74005355DF /* PatternsDemoTests.m */,
 				9517E00B1FD4DE74005355DF /* Info.plist */,
 			);
 			path = PatternsDemoTests;
+			sourceTree = "<group>";
+		};
+		9517E0141FD4DE83005355DF /* SimpleFactory */ = {
+			isa = PBXGroup;
+			children = (
+				9517E0211FD4E4AE005355DF /* SimpleFactory.h */,
+				9517E0221FD4E4AE005355DF /* SimpleFactory.m */,
+			);
+			path = SimpleFactory;
+			sourceTree = "<group>";
+		};
+		9517E01F1FD4E3AC005355DF /* CreateType */ = {
+			isa = PBXGroup;
+			children = (
+				9517E0531FD6329C005355DF /* Builder */,
+				9517E03C1FD52D6C005355DF /* AbstractFactory */,
+				9517E02B1FD4EA8B005355DF /* FactoryMethod */,
+				9517E0201FD4E46B005355DF /* Entity */,
+				9517E0141FD4DE83005355DF /* SimpleFactory */,
+			);
+			path = CreateType;
+			sourceTree = "<group>";
+		};
+		9517E0201FD4E46B005355DF /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				9517E0191FD4E307005355DF /* EClothShoes.h */,
+				9517E01A1FD4E307005355DF /* EClothShoes.m */,
+				9517E01C1FD4E318005355DF /* ELeatherShoes.h */,
+				9517E01D1FD4E318005355DF /* ELeatherShoes.m */,
+				9517E0281FD4E883005355DF /* EShoes.h */,
+				9517E0401FD52DD3005355DF /* EBag.h */,
+				9517E0431FD52E8F005355DF /* EClothBag.h */,
+				9517E0441FD52E8F005355DF /* EClothBag.m */,
+				9517E0461FD52EE4005355DF /* ELeatherBag.h */,
+				9517E0471FD52EE4005355DF /* ELeatherBag.m */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		9517E0241FD4E4EE005355DF /* CreateType */ = {
+			isa = PBXGroup;
+			children = (
+				9517E0261FD4E513005355DF /* SimpleFactoryTests.m */,
+				9517E0381FD4F635005355DF /* FactoryMethodTests.m */,
+				9517E0511FD530F1005355DF /* AbstactFactoryTests.m */,
+				9517E0631FD69643005355DF /* BuilderTests.m */,
+			);
+			path = CreateType;
+			sourceTree = "<group>";
+		};
+		9517E02B1FD4EA8B005355DF /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				9517E02F1FD4F49E005355DF /* EShoesFactory.h */,
+				9517E0321FD4F54B005355DF /* EClothShoesFactory.h */,
+				9517E0331FD4F54B005355DF /* EClothShoesFactory.m */,
+				9517E0351FD4F5E8005355DF /* ELeatherShoesFactory.h */,
+				9517E0361FD4F5E8005355DF /* ELeatherShoesFactory.m */,
+			);
+			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		9517E03C1FD52D6C005355DF /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				9517E03D1FD52D9F005355DF /* AbstractFactory.h */,
+				9517E0491FD52FC2005355DF /* EClothFactory.h */,
+				9517E04A1FD52FC2005355DF /* EClothFactory.m */,
+				9517E04C1FD53082005355DF /* ELeatherFactory.h */,
+				9517E04D1FD53082005355DF /* ELeatherFactory.m */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		9517E0531FD6329C005355DF /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				9517E0541FD63362005355DF /* EHouseDirector.h */,
+				9517E0551FD63362005355DF /* EHouseDirector.m */,
+				9517E0571FD633E8005355DF /* EHouse.h */,
+				9517E0581FD633E8005355DF /* EHouse.m */,
+				9517E05A1FD635CE005355DF /* EHouseBuilder.h */,
+				9517E05B1FD635CE005355DF /* EHouseBuilder.m */,
+				9517E05D1FD63606005355DF /* EDarkHouseBuilder.h */,
+				9517E05E1FD63606005355DF /* EDarkHouseBuilder.m */,
+				9517E0601FD63614005355DF /* ELightHouseBuilder.h */,
+				9517E0611FD63614005355DF /* ELightHouseBuilder.m */,
+			);
+			path = Builder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,8 +351,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9517E05F1FD63606005355DF /* EDarkHouseBuilder.m in Sources */,
 				9517DFF51FD4DE73005355DF /* ViewController.m in Sources */,
+				9517E0451FD52E8F005355DF /* EClothBag.m in Sources */,
+				9517E0591FD633E8005355DF /* EHouse.m in Sources */,
+				9517E01B1FD4E307005355DF /* EClothShoes.m in Sources */,
+				9517E05C1FD635CE005355DF /* EHouseBuilder.m in Sources */,
+				9517E0481FD52EE4005355DF /* ELeatherBag.m in Sources */,
+				9517E0561FD63362005355DF /* EHouseDirector.m in Sources */,
+				9517E0621FD63614005355DF /* ELightHouseBuilder.m in Sources */,
+				9517E0231FD4E4AE005355DF /* SimpleFactory.m in Sources */,
+				9517E0341FD4F54B005355DF /* EClothShoesFactory.m in Sources */,
 				9517E0001FD4DE74005355DF /* main.m in Sources */,
+				9517E0371FD4F5E8005355DF /* ELeatherShoesFactory.m in Sources */,
+				9517E04E1FD53082005355DF /* ELeatherFactory.m in Sources */,
+				9517E04B1FD52FC2005355DF /* EClothFactory.m in Sources */,
+				9517E01E1FD4E318005355DF /* ELeatherShoes.m in Sources */,
 				9517DFF21FD4DE73005355DF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,7 +375,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9517E0271FD4E513005355DF /* SimpleFactoryTests.m in Sources */,
 				9517E00A1FD4DE74005355DF /* PatternsDemoTests.m in Sources */,
+				9517E0391FD4F635005355DF /* FactoryMethodTests.m in Sources */,
+				9517E0521FD530F1005355DF /* AbstactFactoryTests.m in Sources */,
+				9517E0641FD69643005355DF /* BuilderTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
